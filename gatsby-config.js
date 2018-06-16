@@ -48,7 +48,7 @@ module.exports = {
     `gatsby-plugin-react-next`,
     // `gatsby-plugin-styled-jsx`, // the plugin's code is inserted directly to gatsby-node.js and gatsby-ssr.js files
     // 'gatsby-plugin-styled-jsx-postcss', // as above
-    {
+    /*{
       resolve: `gatsby-plugin-algolia`,
       options: {
         appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
@@ -57,7 +57,7 @@ module.exports = {
         queries,
         chunkSize: 10000 // default: 1000
       }
-    },
+    },*/
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -224,9 +224,9 @@ module.exports = {
         ]
       }
     },
-    {
+    /*{
       resolve: `gatsby-plugin-sitemap`
-    },
+    },*/
     {
       resolve: "gatsby-plugin-svgr"
     }
